@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <main className="grid place-content-center min-h-screen gap-4 px-4">
-      <div className="w-full bg-red rounded-card flex items-center justify-between pl-5 pr-6 pt-5 pb-[1.375rem] lg:pl-8 lg:pt-[1.688rem] lg:pb-[1.563rem] lg:pr-[2.438rem]">
+      <div className="w-full bg-red rounded-card lg:rounded-[20px] flex items-center justify-between pl-5 pr-6 pt-5 pb-[1.375rem] lg:pl-8 lg:pt-[1.688rem] lg:pb-[1.563rem] lg:pr-[2.438rem]">
         <div className="flex flex-col gap-1">
           <h1 className="text-sm-caption lg:text-body text-white">My balance</h1>
           <span className="text-balance lg:text-lg-heading text-white">$921.48</span>
@@ -50,7 +50,7 @@ export default function Home() {
         <Image src={logo} alt="logo" />
       </div>
 
-      <div className="w-[21.438rem] lg:w-[33.75rem] min-h-[26.313rem] lg:min-h-[31.938rem] bg-card-white rounded-card px-5 py-6 lg:px-10 lg:pt-8 lg:pb-10 ">
+      <div className="w-[21.438rem] lg:w-[33.75rem] min-h-[26.313rem] lg:min-h-[31.938rem] bg-card-white rounded-card lg:rounded-[20px] px-5 py-6 lg:px-10 lg:pt-8 lg:pb-10 ">
         <h2 className="text-balance text-dark-brown lg:text-lg-heading mb-[3.25rem] lg:mb-[4.125rem]">Spending - Last 7 days</h2>
         <ul className="pb-6 lg:pb-8 border-b-2 rounded-xs border-cream-bg mb-6 lg:mb-8 flex gap-3 lg:gap-[1.119rem]  h-[12.688rem]">
           {days.map((item) => (
