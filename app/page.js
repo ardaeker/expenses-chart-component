@@ -82,9 +82,9 @@ export default function Home() {
         <div className="flex flex-col">
           <h3 className="text-sm-caption lg:text-body text-medium-brown">Total this month</h3>
           <div className="flex justify-between items-center">
-            <span className="text-balance-month text-dark-brown lg:text-xl-heading flex items-center">
+            <div className="flex items-center text-balance-month text-dark-brown lg:text-xl-heading ">
               $<Counter value={(250.3 + lastSpending).toFixed(0)} />
-            </span>
+            </div>
 
             <div className="flex flex-col items-end">
               <span className="text-sm-caption-month lg:text-body-bold text-dark-brown">+2.4%</span>

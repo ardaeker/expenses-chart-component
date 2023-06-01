@@ -7,7 +7,7 @@ const height = fontSize + padding;
 
 export default function Counter({ value }) {
   return (
-    <div style={{ fontSize }} className="flex overflow-hidden rounded text-balance-month lg:text-xl-heading  pr-2  text-dark-brown">
+    <div style={{ fontSize }} className="flex  overflow-hidden rounded text-balance-month lg:text-xl-heading  pr-2  text-dark-brown">
       <Digit place={100} value={value} />
       <Digit place={10} value={value} />
       <Digit place={1} value={value} />
