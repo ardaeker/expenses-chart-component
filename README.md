@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/multistep-form-next-js-framermotion-validatorjs-tailwindcss-mAkCV0YH3B)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/expenses-chart-component-solution-0pCAhX_zEK)
 - Live Site URL: [Live site URL](https://expenses-chart-component-eosin.vercel.app/)
 
 ## My process
